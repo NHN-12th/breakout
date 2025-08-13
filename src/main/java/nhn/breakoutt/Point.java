@@ -21,4 +21,16 @@ public class Point {
     public double distanceTo(Point other) {
         return Math.sqrt(Math.pow(other.x-this.x, 2) + Math.pow(other.y - this.y, 2));
     }
+
+    public Point getCenter() {
+        return new Point(x, y);
+    }
+
+    public Point add(Vector2D vector) {
+        return new Point(x + vector.getX(), y + vector.getY());
+    }
+
+    public Vector2D subtract(Point other) {
+        return new Vector2D(x - other.x, y - other.y);
+    }
 }
