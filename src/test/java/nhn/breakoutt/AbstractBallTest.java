@@ -1,9 +1,10 @@
 package nhn.breakoutt;
 
-import javafx.scene.paint.Color;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 // AbstractBall을 상속받는 테스트용 구현체
 class TestBall extends AbstractBall {

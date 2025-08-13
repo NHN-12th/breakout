@@ -1,9 +1,11 @@
 package nhn.breakoutt;
 
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
 import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Lab 5-3: 디자인 패턴 적용 테스트
