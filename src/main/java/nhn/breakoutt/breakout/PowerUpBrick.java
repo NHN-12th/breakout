@@ -27,11 +27,6 @@ public class PowerUpBrick extends SimpleBrick implements PowerUpProvider {
         return powerUpType;
     }
 
-    @Override
-    public double getDropChance() {
-        return dropChance;
-    }
-
     private PowerUpType getRandomPowerUpType() {
         PowerUpType[] types = PowerUpType.values();
         return types[random.nextInt(types.length)];
