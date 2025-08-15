@@ -5,7 +5,9 @@ module nhn.breakoutt {
 
     opens nhn.breakoutt to javafx.fxml;
     opens nhn.breakoutt.breakout to javafx.fxml;
+    opens nhn.breakoutt.cannongame to javafx.fxml;
 
     exports nhn.breakoutt;
     exports nhn.breakoutt.breakout;
+    exports nhn.breakoutt.cannongame;
 }
